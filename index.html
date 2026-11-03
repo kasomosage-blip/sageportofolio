@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Profil Étudiant</title>
+    <style>
+        :root {
+            --primary: #4f46e5;
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-color: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+        body { background-color: var(--bg-color); color: var(--text-color); min-height: 100vh; display: flex; justify-content: center; align-items: center; padding: 20px; }
+        .card { background-color: var(--card-bg); max-width: 600px; width: 100%; border-radius: 16px; overflow: hidden; border: 1px solid rgba(255, 255, 255, 0.1); padding: 30px; text-align: center; }
+        .avatar { font-size: 3rem; margin-bottom: 10px; }
+        h1 { margin-bottom: 10px; font-size: 1.8rem; }
+        p { color: var(--text-muted); line-height: 1.6; font-size: 0.95rem; margin-bottom: 20px; }
+        .tags { display: flex; justify-content: center; gap: 8px; flex-wrap: wrap; }
+        .tag { background-color: rgba(79, 70, 229, 0.2); color: #818cf8; padding: 6px 12px; border-radius: 20px; font-size: 0.85rem; border: 1px solid rgba(79, 70, 229, 0.3); }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="avatar">🎓</div>
+        <h1>Mon Profil Étudiant</h1>
+        <p>Étudiant en Informatique Appliquée à la Gestion des Entreprises. Passionné par le développement, les systèmes d'information et les nouvelles technologies.</p>
+        <div class="tags">
+            <span class="tag">HTML5 / CSS3</span>
+            <span class="tag">Git & GitHub</span>
+            <span class="tag">Informatique de Gestion</span>
+        </div>
+    </div>
+</body>
+</html>
